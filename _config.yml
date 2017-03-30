@@ -6,28 +6,28 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Start Bootstrap
-email: your-email@domain.com
+title: Neutron detector efficiency calculator
+email: alvaro@esss.se
 description: > # this means to ignore newlines until "baseurl:"
-  Web Developer - Graphic Artist - User Experience Designer
+  Standalone tool to calculate the efficiency of a neutron detector
 baseurl: "/startbootstrap-freelancer-jekyll" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://github.com/DetectorEfficiencyCalculator/dg_efficiencyCalculator" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
-twitter_username: SBootstrap
-github_username:  BlackrockDigital
-facebook_username: StartBootstrap
+#twitter_username: SBootstrap
+github_username:  alvcarmona
+#facebook_username: StartBootstrap
 #instagram_username: beyonce
 #stackoverflow_url: https://
 #googleplus_username: BobMarley
 #skype_username: echo123
-#linkedin_url: https://
+linkedin_url: https://www.linkedin.com/in/%C3%A1lvaro-carmona-bas%C3%A1%C3%B1ez-08bb56a7/
 
 # Address information
-address_street: 3034 Melrose Place
-address_city: Beverly Hills
-address_state: CA
-address_zip: 90201
+address_street: European Spallation Source ERIC
+address_city: Lund
+address_state: Skåne, Sweden
+address_zip: 22100
 
 # Build settings
 markdown: kramdown
