@@ -1,0 +1,21 @@
+{
+    "angle": 90, 
+    "blades": [
+        {
+            "backscatter": 1.0, 
+            "inclination": 0, 
+            "substrate": 0.0, 
+            "transmission": 0
+        }
+    ], 
+    "converter": "10B4C 2.24g/cm3", 
+    "name": "sinmono", 
+    "single": true, 
+    "threshold": 100, 
+    "wavelength": [
+        {
+            "%": 100, 
+            "angstrom": 2.8
+        }
+    ]
+}
