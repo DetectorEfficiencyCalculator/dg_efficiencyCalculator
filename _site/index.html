@@ -6,25 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Detector efficiency calculator</title>
+    <title>Neutron detector efficiency calculator</title>
 
-    <meta name="description" content="Web Developer - Graphic Artist - User Experience Designer
+    <meta name="description" content="Standalone tool to calculate the efficiency of a neutron detector
 ">
 
-    <!-- Bootswatch Core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
     <!-- Freelancer Theme CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-freelancer/1.1.0/css/freelancer.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-freelancer/3.3.7/css/freelancer.min.css">
 
-    <link rel="canonical" href="http://yourdomain.com/startbootstrap-freelancer-jekyll/">
+    <link rel="canonical" href="http://localhost:4000//">
 
-    <link rel="alternate" type="application/rss+xml" title="Start Bootstrap" href="http://yourdomain.com/startbootstrap-freelancer-jekyll /feed.xml ">
+    <link rel="alternate" type="application/rss+xml" title="Neutron detector efficiency calculator" href="http://localhost:4000/ /feed.xml ">
 
-
-    <link rel="stylesheet" href="./assets/styles.css">
     <!-- Custom Fonts -->
-    <link href="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     
@@ -59,42 +57,53 @@
                     <a href="#page-top"></a>
                 </li>
                 <li class="page-scroll">
-                    <a href="#portfolio">Portfolio</a>
+                    <a href="#portfolio">Project</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#about">About</a>
                 </li>
+                <!--
                 <li class="page-scroll">
                     <a href="#contact">Contact</a>
                 </li>
+                -->
             </ul>
         </div>
         <!-- /.navbar-collapse -->
     </div>
     <!-- /.container-fluid -->
 </nav>
-
-
     <!-- Header -->
 <header>
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive" src="img/images.png" alt="">
+                <img class="img-responsive" src="img/62-512.png" style="max-height: 300px" alt="img/profile.png">
                 <div class="intro-text">
                     <span class="name">Neutron detector efficiency calculator</span>
                     <hr class="star-light">
-                    <span class="skills">European spallation source ERIC</span>
+                    <span class="skills">Standalone tool to calculate the efficiency of a neutron detector
+</span>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-
-
-      <!-- About Section -->
-    <section class="success" id="about">
+        <section id="description">
+        <div class="container">
+            <div class="row">
+             <p class="skills">  This is the , a series of python scripts and a graphical user interface designed to calculate, visualize, optimize and compare the efficiency of B10 based neutron detectors.</p>
+            </div>
+                <div class="row">
+                        <a>
+                            <img src="/img/detector_configurator.png" class="img-responsive img-description" alt="">
+                        </a>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="success" id="about" style="background-color: darkgrey">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -112,89 +121,62 @@
             </div>
         </div>
     </section>
-
-     <!-- Portfolio Grid Section
-    <section id="portfolio">
+    <!-- Footer -->
+<footer class="text-center">
+    <div class="footer-above">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
+                <div class="footer-col col-md-4">
+                    <h3>Location</h3>
+                    <p>European Spallation Source ERIC
+                        <br>Lund, Skåne, Sweden 22100</p>
                 </div>
-            </div>
-            <div class="row">
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#modalCabin" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="/startbootstrap-freelancer-jekyll/img/portfolio/cabin.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#modalCake" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="/startbootstrap-freelancer-jekyll/img/portfolio/cake.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#modalCircus" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="/startbootstrap-freelancer-jekyll/img/portfolio/circus.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#modalGame" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="/startbootstrap-freelancer-jekyll/img/portfolio/game.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#modalSafe" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="/startbootstrap-freelancer-jekyll/img/portfolio/safe.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                
-                    <div class="col-sm-4 portfolio-item">
-                        <a href="#modalSubmarine" class="portfolio-link" data-toggle="modal">
-                            <div class="caption">
-                                <div class="caption-content">
-                                    <i class="fa fa-search-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img src="/startbootstrap-freelancer-jekyll/img/portfolio/submarine.png" class="img-responsive" alt="">
-                        </a>
-                    </div>
-                
+                <div class="footer-col col-md-4">
+                    <h3>Around the Web</h3>
+                    <ul class="list-inline">
+                        
+                        
+                        
+                        <li>
+                            <a href="https://github.com/alvcarmona" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                        </li>
+                        
+                        
+                        
+                        
+                        
+                        
+                        <li>
+							<a href="https://www.linkedin.com/in/%C3%A1lvaro-carmona-bas%C3%A1%C3%B1ez-08bb56a7/" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <!--
+                <div class="footer-col col-md-4">
+                    <h3>About Neutron detector efficiency calculator</h3>
+                    <p><a href="http://startbootstrap.com">Start Bootstrap</a> is an open source library of Bootstrap themes and templates.</p>
+                </div>
+                -->
             </div>
         </div>
-    </section>
-
-
+    </div>
+    <div class="footer-below">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright &copy; European Spallation Source ERIC 2017
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
+    <a class="btn btn-primary" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+    </a>
+</div>
 
     <!-- Contact Section
     <section id="contact">
@@ -250,55 +232,7 @@
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-<footer class="text-center">
-    <div class="footer-above">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col col-md-4">
-                    <h3>Location</h3>
-                    <p>European Spallation Source ERIC
-                        <br>Box 176
-                            S-221 00 Lund
-                            Sweden</p>
-                </div>
-                <div class="footer-col col-md-4">
-                    <h3>Around the Web</h3>
-                    <ul class="list-inline">
-                        
-                        <li>
-                            <a href="https://www.linkedin.com/in/%C3%A1lvaro-carmona-bas%C3%A1%C3%B1ez-08bb56a7/" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                        </li>
-
-
-                        <li>
-                            <a href="https://github.com/DetectorEfficiencyCalculator/dg_efficiencyCalculator" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer-below">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    Copyright &copy; Your Website 2016
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-<div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-    <a class="btn btn-primary" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-    </a>
-</div>
-
-
+                    -->
     
 <div class="portfolio-modal modal fade" id="modalCabin" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
@@ -314,7 +248,7 @@
                     <div class="modal-body">
                         <h2>Cabin</h2>
                         <hr class="star-primary">
-                        <img src="/startbootstrap-freelancer-jekyll/img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
+                        <img src="//img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
 
 <p>In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!</p>
@@ -352,7 +286,7 @@
                     <div class="modal-body">
                         <h2>Cake</h2>
                         <hr class="star-primary">
-                        <img src="/startbootstrap-freelancer-jekyll/img/portfolio/cake.png" class="img-responsive img-centered" alt="">
+                        <img src="//img/portfolio/cake.png" class="img-responsive img-centered" alt="">
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
 
 <p>In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!</p>
@@ -390,7 +324,7 @@
                     <div class="modal-body">
                         <h2>Circus</h2>
                         <hr class="star-primary">
-                        <img src="/startbootstrap-freelancer-jekyll/img/portfolio/circus.png" class="img-responsive img-centered" alt="">
+                        <img src="//img/portfolio/circus.png" class="img-responsive img-centered" alt="">
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
 
 <p>In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!</p>
@@ -428,7 +362,7 @@
                     <div class="modal-body">
                         <h2>Game</h2>
                         <hr class="star-primary">
-                        <img src="/startbootstrap-freelancer-jekyll/img/portfolio/game.png" class="img-responsive img-centered" alt="">
+                        <img src="//img/portfolio/game.png" class="img-responsive img-centered" alt="">
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
 
 <p>In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!</p>
@@ -466,7 +400,7 @@
                     <div class="modal-body">
                         <h2>Safe</h2>
                         <hr class="star-primary">
-                        <img src="/startbootstrap-freelancer-jekyll/img/portfolio/safe.png" class="img-responsive img-centered" alt="">
+                        <img src="//img/portfolio/safe.png" class="img-responsive img-centered" alt="">
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
 
 <p>In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!</p>
@@ -504,7 +438,7 @@
                     <div class="modal-body">
                         <h2>Submarine</h2>
                         <hr class="star-primary">
-                        <img src="/startbootstrap-freelancer-jekyll/img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
+                        <img src="//img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
                         <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
 
 <p>In the Jekyll version of Freelancer, each portfolio item is a separate post that you can edit using markdown!</p>
@@ -528,18 +462,99 @@
     </div>
 </div>
 
+    <!-- Portfolio Grid Section
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#modalCabin" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="//img/portfolio/cabin.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#modalCake" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="//img/portfolio/cake.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#modalCircus" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="//img/portfolio/circus.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#modalGame" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="//img/portfolio/game.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#modalSafe" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="//img/portfolio/safe.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="#modalSubmarine" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="//img/portfolio/submarine.png" class="img-responsive" alt="">
+                        </a>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
 
+-->
     <!-- jQuery -->
-<script src="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/vendor/jquery/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Bootstrap Core JavaScript -->
-<script src="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <!-- Plugin JavaScript -->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 <!-- Contact Form JavaScript -->
 <script src="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/js/jqBootstrapValidation.js"></script>
 <script src="http://sbootstrap-freelancer.startbootstrapc.netdna-cdn.com/js/contact_me.js"></script>
 <!-- Custom Theme JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-freelancer/1.1.0/js/freelancer.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/startbootstrap-freelancer/3.3.7/js/freelancer.min.js"></script>
 
 
   </body>
