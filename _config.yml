@@ -10,9 +10,10 @@ title: Neutron detector efficiency calculator
 email: alvaro@esss.se
 description: > # this means to ignore newlines until "baseurl:"
   Standalone tool to calculate the efficiency of a neutron detector
-baseurl: "/startbootstrap-freelancer-jekyll" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://github.com/DetectorEfficiencyCalculator/dg_efficiencyCalculator" # the base hostname & protocol for your site
 
+software_name: Detector efficiency calculator
 # Social media profiles - feel free to add more here
 #twitter_username: SBootstrap
 github_username:  alvcarmona
