@@ -1,0 +1,57 @@
+{
+    "angle": 90, 
+    "blades": [
+        {
+            "backscatter": 1.7011000000000003,
+            "inclination": 0, 
+            "substrate": 0.0, 
+            "transmission": 3.0
+        }, 
+        {
+            "backscatter": 1.7011000000000003, 
+            "inclination": 0, 
+            "substrate": 0.0, 
+            "transmission": 3.0
+        }, 
+        {
+            "backscatter": 1.7011000000000003, 
+            "inclination": 0, 
+            "substrate": 0.0, 
+            "transmission": 3.0
+        }, 
+        {
+            "backscatter": 1.7011000000000003, 
+            "inclination": 0, 
+            "substrate": 0.0, 
+            "transmission": 3.0
+        }, 
+        {
+            "backscatter": 1.7011000000000003, 
+            "inclination": 0, 
+            "substrate": 0.0, 
+            "transmission": 3.0
+        }, 
+        {
+            "backscatter": 1.7011000000000003, 
+            "inclination": 0, 
+            "substrate": 0.0, 
+            "transmission": 3.0
+        }, 
+        {
+            "backscatter": 1.7011000000000003, 
+            "inclination": 0, 
+            "substrate": 0.0, 
+            "transmission": 3.0
+        }
+    ], 
+    "converterConfiguration": "10B4C 2.24g/cm3", 
+    "name": "Detector 1", 
+    "single": false, 
+    "threshold": 100, 
+    "wavelength": [
+        {
+            "%": 100, 
+            "angstrom": 1.8
+        }
+    ]
+}
