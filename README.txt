@@ -14,6 +14,7 @@ Uses code from the project B10 MathUtils in https://bitbucket.org/europeanspalla
 Python 2.7.12
 pyqt 4
 
+
 Execution
 ------------
 python launch.py
